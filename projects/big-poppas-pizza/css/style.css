@@ -1,0 +1,265 @@
+body {
+  font: 155%/1.4 Helvetica, Arial, sans-serif;
+  color: white;
+  margin: 0;
+  background-image: url("https://media.gettyimages.com/photos/pizza-with-ham-mozzarella-mushrooms-herbs-picture-id943598240?s=2048x2048");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+
+header {
+  background-color: #3d3d3d;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  background-image: url("https://www.potterybarn.com/pbimgs/rk/images/dp/wcm/201936/0322/griffin-reclaimed-wood-dining-bench-o.jpg");
+}
+
+fieldset{
+    background-color: rgba(139, 69, 19, 0.3);
+    padding-left:50px;
+    padding-right:50px;
+}
+
+input{
+  display: inline-block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+label{
+  text-align: right;
+  display: inline-block;
+  clear: left;  
+}
+
+input[type=radio]{
+  display: inline-block;
+  margin:auto;
+}
+
+input[type=text] {
+  min-width: 25%;
+  height:27px;
+  padding: 5px 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background-color: #f1f1f1;
+}
+
+input[type=tel] {
+  min-width: 25%;
+  height:27px;
+  padding: 5px 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background-color: #f1f1f1;
+}
+
+input[type=email] {
+  min-width: 25%;
+  height:27px;
+  padding: 5px 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background-color: #f1f1f1;
+}
+
+input[type=number] {
+  min-width: 5%;
+  max-width: 5px;
+  height:27px;
+  padding: 5px 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background-color: #f1f1f1;
+}
+
+#post-code{
+    min-width: 2px;
+}
+
+#apt{
+    min-width: 10%;
+}
+
+#province{
+    min-width: 10%;
+}
+
+select {
+  min-width: 6%;
+  height:27px;
+  padding: 5px 10px;
+  margin: 8px 0;
+  background-color: #f1f1f1;
+}
+
+input[type='checkbox']{
+  border-width: 2px;
+}
+
+option {
+  width: 20%;
+  padding: 5px 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+#center-button{
+  text-align: center;
+}
+
+button{
+  background-color: rgba(139, 69, 19, .3);
+  color: white;
+  border-radius: 10px;
+  padding:15px;
+  text-align: center;
+
+} 
+
+.content{
+  background-color:#3d3d3d;
+  color:white;
+  margin-right: 100px;
+  margin-left: 100px;
+  border-radius: 10px;
+  padding-top:15px;
+  padding-bottom:55px;
+  padding-right: 50px;
+  padding-left: 50px;
+  background-image: url("https://www.potterybarn.com/pbimgs/rk/images/dp/wcm/201936/0322/griffin-reclaimed-wood-dining-bench-o.jpg");
+
+}
+
+main{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+h1 {
+  color: white;
+  margin-left: 40px;
+  text-shadow: 4px 4px black;
+  text-align: center;
+}
+
+h2{
+  font-weight: bolder;
+  text-shadow: 3px 3px black;
+}
+
+legend{
+  font-weight: bolder;
+  text-shadow: 3px 3px black;
+}
+
+h3 {
+  color:white;
+  text-shadow: 2px 2px black;
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+  font: fantasy;
+ 
+}
+
+#placeorder{
+  margin-left: 100px;
+  padding: 25px;
+}
+
+#home-text p{
+  background-color: grey;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 100px;
+  margin-left: 100px;
+  padding: 50px;
+  padding-top: 25px;
+  text-shadow: transparent;
+}
+
+nav {
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+nav a {
+  color: white;
+  text-shadow: 2px 2px black;
+}
+
+a:hover, a:visited, a:link, a:active{
+  color:white;
+  text-decoration: none;
+}
+
+.title{
+  color:white;
+  margin-right: 100px;
+  margin-left: 100px;
+  border-radius: 10px;
+  padding-left:50px;
+  padding-right:50px;
+  padding-top:25px;  
+}
+
+section{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 100px;
+  margin-left: 100px;
+  border-radius: 35px;
+  padding: 25px;
+  padding-top: 5px;
+}
+
+ul{
+    list-style-type: none;
+    color: white;
+    text-shadow: 2px 2px #1f1f1f;
+}
+
+nav ul li {
+  display: inline;
+  list-style-type: none;
+  font:monospace;
+}
+
+nav ul {
+  text-align: center;
+  padding-left: 0;
+
+}
+
+/*hide and show the accessible 'skip to main content' link*/
+a[href="#mainContent"] {
+  position: relative;
+  left: -99999px;
+}
+
+a[href="#mainContent"]:focus {
+  left: 0;
+}
+
+footer {
+  background-color: rgba(139, 69, 19, .3);
+  color: white;
+  text-align: center;
+}
+
+#biggie-pic{
+  display: inline-block;
+  border-color: rgba(139, 69, 19, .3);
+  border:solid;
+  margin-left:10%;
+  width: 50%;
+  height:95px;
+  border-radius: 50%;
+}
